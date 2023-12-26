@@ -1,5 +1,25 @@
 # SnippetFetch
 
+## What Project Does:
+- It helps in management of all the snippets the person has provides a medium to share, access and work on the pice of code they want in a seamlessly
+manner.
+- Can be used in firms as it provides an easy way of seeing/accessing one other's code.
+- Keeps the Data archived and protected on cloud even in case of any kind of disaster.
+
+## Scope of the project
+* This Project has been made in a short time so the functionalities are limited for now, they can be increased in future easily.
+* The UI/UX is minimal as the project has been made keeping in mind the backend as the primary goal. This can also be improved easily in future.
+* The code is well commented and formatted so tweaks and additions could be easily made.
+
+## Technologies Used
+
+* ReactJS
+* BootStrap
+* NodeJS
+* ExpressJS
+* MongoDB
+* JWT Authentication
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
