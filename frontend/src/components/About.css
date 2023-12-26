@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d0025;
+}
+
+.aboutPage {
+
+    /* margin: 60vh 0; */
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about h3 {
+    color: #39cb8e;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0vh;
+    /* margin-top: 4vh; */
+}
+
+.aboutComp1 .content1 {
+    background-color: #e848c5;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 2vh;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 2vh;
+
+    }
+
+    .aboutPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutComp1 .content1 {
+        height: 20vh;
+        width: 30vh;
+        border-radius: 2vh;
+        margin-bottom: 4vh;
+        padding: 4vh;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width:950px) {
+    .about {
+        padding: 4vh;
+
+    }
+
+    .aboutPage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutComp1 .content1 {
+        height: 20vh;
+        width: 30vh;
+        border-radius: 2vh;
+        margin-bottom: 4vh;
+        padding: 4vh;
+
+    }
+
+}
